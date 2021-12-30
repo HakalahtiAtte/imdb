@@ -1,5 +1,5 @@
 <?php
-  /*  // Funktio joka luo genre-pudotusvalikon
+    // Funktio joka luo genre-pudotusvalikon
     function createGenreDropDown() {
         // Muodosta tietokantayhteys
         require_once('db.php'); // Ota db.php-tiedosto käyttöön tässä tiedostossa
@@ -19,10 +19,10 @@
         }
         $html .= '</select>';
         return $html;
-    } /*
+    } 
 
     // Funktio joka luo region-pudotusvalikon
- /*   function createRegionDropDown() {
+    function createRegionDropDown() {
         // Muodosta tietokantayhteys
         require_once('db.php'); // Ota db.php-tiedosto käyttöön tässä tiedostossa
         $conn = createDbConnection(); // Kutsutaan db.php-tiedostossa olevaa createDbConnection()-funktiota, joka avaa tietokantayhteden
@@ -41,7 +41,7 @@
         }
         $html .= '</select>';
         return $html;
-    } */
+    } 
 
     function createBirthDropdown() {
         

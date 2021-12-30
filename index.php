@@ -4,13 +4,13 @@
     $html = "<h2>Criteria</h2>";
     $html .= '<form action="GET">';
     // Alue-pudotusvalikko
- //   $html .= createRegionDropDown();
+       $html .= createRegionDropDown();
     // Genre-pudotusvalikko
-   // $html .= createGenreDropDown();
-
+    $html .= createGenreDropDown();
+    // Pudotusvalikko syntymävuoden mukaan
     $html .= createBirthDropdown();
 
-  //  $html .= createLivedFor();
+    //  $html .= createLivedFor();
     // Looppaa läpi tiedostot datasets-hakemistosta
     $path = 'datasets';
     if ($handle = opendir($path)) {

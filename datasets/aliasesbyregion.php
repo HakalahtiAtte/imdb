@@ -1,5 +1,5 @@
 <?php
-    /* Muodosta tietokantayhteys
+    // Muodosta tietokantayhteys
     require_once('../db.php'); // Ota db.php-tiedosto käyttöön tässä tiedostossa
     // Lue region get-parametri muuttujaan
     $region = $_GET['region'];
@@ -28,4 +28,4 @@
         $html .= '<li>' . $row['title'] . '</li>';
     }
     $html .= '</ul>';
-    echo $html; /*
+    echo $html; 
